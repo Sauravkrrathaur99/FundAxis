@@ -4,8 +4,7 @@ export function CompanyOverview() {
   return (
     <div className="portal-page">
       <p className="muted intro">
-        AMC console preview: scheme shelf performance, inflows, and operational queues (sample
-        numbers).
+        AMC console preview for India: scheme performance, inflows, and compliance queues (sample).
       </p>
       <div className="stat-grid">
         <div className="stat-card">
@@ -26,7 +25,7 @@ export function CompanyOverview() {
         </div>
       </div>
       <section className="card panel">
-        <h2 className="h3">Recent lead activity</h2>
+        <h2 className="h3">Recent investor activity</h2>
         <ul className="simple-list">
           {companyLeads.map((l) => (
             <li key={l.id}>
@@ -76,7 +75,7 @@ export function CompanySchemes() {
 export function CompanyLeads() {
   return (
     <div className="portal-page">
-      <p className="muted intro">CRM-style lead inbox — assignment rules &amp; APIs later.</p>
+      <p className="muted intro">CRM-style lead inbox with city, category, and KYC status (demo).</p>
       <div className="card panel">
         <table className="data-table">
           <thead>
@@ -113,13 +112,13 @@ export function CompanyCompliance() {
   return (
     <div className="portal-page">
       <p className="muted intro">
-        Placeholder for SID / KIM hosting, AMFI disclosures, audit trails, and e-sign workflows.
+        Placeholder for SID/KIM hosting, AMFI disclosures, audit trails, and e-sign workflows.
       </p>
       <ul className="check-list">
         <li>SEBI registration document vault</li>
-        <li>Riskometer &amp; scheme document versioning</li>
+        <li>Riskometer and scheme document versioning</li>
         <li>Investor communication templates</li>
-        <li>Regulatory filing calendar (ICS export — future)</li>
+        <li>Regulatory filing calendar (future)</li>
       </ul>
     </div>
   )

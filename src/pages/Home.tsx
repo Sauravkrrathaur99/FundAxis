@@ -9,13 +9,13 @@ export function Home() {
       <section className="hero-section">
         <div className="hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Mutual fund marketplace · Sample build</p>
+            <p className="eyebrow">India-focused mutual fund platform · Demo build</p>
             <h1 className="hero-title">
-              Compare, plan, and invest — <em>with clarity</em>
+              Mutual fund investing for India - <em>clear, compliant, and guided</em>
             </h1>
             <p className="hero-lead">
-              One place to explore schemes, run SIP scenarios, and align with your distributor or
-              agent — built for a PolicyBazaar-style journey, tailored for mutual funds.
+              Explore Indian AMCs, compare schemes, run SIP projections in INR, and connect with
+              your distributor or ARN agent. The journey is inspired by Indian investment platforms.
             </p>
             <div className="hero-cta">
               <Link to="/funds" className="btn btn-primary btn-lg">
@@ -26,9 +26,9 @@ export function Home() {
               </Link>
             </div>
             <ul className="hero-trust">
-              <li>Sample NAVs &amp; returns (illustrative)</li>
+              <li>Sample NAVs and returns for Indian schemes (illustrative)</li>
               <li>Role-based portals: AMC, distributor, agent</li>
-              <li>Ready to plug into live APIs later</li>
+              <li>Terms aligned to Indian mutual fund workflows</li>
             </ul>
           </div>
           <div className="hero-panel" aria-hidden>
@@ -40,16 +40,16 @@ export function Home() {
               </div>
               <div className="hero-mini-rows">
                 <div>
-                  <span>Flexi cap (1Y)</span>
-                  <strong>+18.4%</strong>
+                  <span>Large &amp; Flexi Cap (1Y)</span>
+                  <strong>+22.1%</strong>
                 </div>
                 <div>
                   <span>Liquid (1Y)</span>
-                  <strong>+6.8%</strong>
+                  <strong>+7.2%</strong>
                 </div>
                 <div>
                   <span>ELSS (3Y)</span>
-                  <strong>+13.1% CAGR</strong>
+                  <strong>+14.3% CAGR</strong>
                 </div>
               </div>
             </div>
@@ -90,22 +90,22 @@ export function Home() {
           <div>
             <h2>How stakeholders use FundAxis</h2>
             <p className="muted">
-              The same public experience can connect to three partner workspaces — each with its own
-              login and future permissions.
+              The public investor journey connects to three partner workspaces with India-specific
+              operations, terminology, and compliance placeholders.
             </p>
           </div>
           <ul className="stake-list">
             <li>
               <strong>AMC / Company</strong>
-              <span className="muted">Scheme shelf, lead funnel, compliance &amp; reporting hooks.</span>
+              <span className="muted">Scheme setup, AUM tracking, SID/KIM and compliance workflow.</span>
             </li>
             <li>
               <strong>Distributor</strong>
-              <span className="muted">Client book, commission view, agent hierarchy.</span>
+              <span className="muted">Client folios, ARN hierarchy, commission and payout view.</span>
             </li>
             <li>
               <strong>Agent</strong>
-              <span className="muted">Pipeline, KYC queue, SIP &amp; lumpsum applications.</span>
+              <span className="muted">Lead pipeline, CKYC/eKYC queue, SIP/lumpsum application tracking.</span>
             </li>
           </ul>
         </div>

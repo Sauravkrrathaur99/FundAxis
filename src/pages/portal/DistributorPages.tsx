@@ -4,7 +4,7 @@ export function DistributorOverview() {
   return (
     <div className="portal-page">
       <p className="muted intro">
-        Distributor cockpit: book size, payout visibility, and network snapshot (sample).
+        Distributor cockpit: client book, payout visibility, and ARN network snapshot (sample).
       </p>
       <div className="stat-grid">
         <div className="stat-card">
@@ -61,7 +61,7 @@ export function DistributorClients() {
 export function DistributorCommissions() {
   return (
     <div className="portal-page">
-      <p className="muted intro">Trail &amp; upfront statements — Excel/PDF export in production.</p>
+      <p className="muted intro">Trail and upfront statements - Excel/PDF export in production.</p>
       <div className="card panel">
         <table className="data-table">
           <thead>
@@ -75,19 +75,19 @@ export function DistributorCommissions() {
           <tbody>
             <tr>
               <td>Mar 2026</td>
-              <td>Vertex Flexi Cap</td>
+              <td>SBI Bluechip Fund</td>
               <td>Trail</td>
               <td>4,28,190</td>
             </tr>
             <tr>
               <td>Mar 2026</td>
-              <td>Northstar ELSS</td>
+              <td>UTI Long Term Equity (ELSS)</td>
               <td>Upfront</td>
               <td>1,02,400</td>
             </tr>
             <tr>
               <td>Feb 2026</td>
-              <td>Harbor Balanced</td>
+              <td>HDFC Balanced Advantage</td>
               <td>Trail</td>
               <td>3,91,050</td>
             </tr>
@@ -101,7 +101,7 @@ export function DistributorCommissions() {
 export function DistributorAgents() {
   return (
     <div className="portal-page">
-      <p className="muted intro">Sub-broker hierarchy, targets, and licensing checks (future).</p>
+      <p className="muted intro">Sub-broker hierarchy, ARN mapping, and licensing checks (future).</p>
       <ul className="simple-list">
         <li>
           <strong>Amit Kulkarni</strong> <span className="muted">— Pune Zone · Active</span>

@@ -21,9 +21,9 @@ export function SIPCalculator() {
   return (
     <div className="page-sip">
       <header className="page-header">
-        <h1>SIP calculator</h1>
+        <h1>SIP calculator (India)</h1>
         <p className="muted">
-          Estimate future value using a flat assumed return (illustration only — not advice).
+          Estimate future value in INR using an assumed annual return (illustration only, not advice).
         </p>
       </header>
 
@@ -81,8 +81,8 @@ export function SIPCalculator() {
             </div>
           </dl>
           <p className="muted small disclaimer-box">
-            Formula: standard monthly SIP future value. Actual returns vary; taxes and loads not
-            modeled in this demo.
+            Formula: standard monthly SIP future value. Taxation (LTCG/STCG), expense impact, and
+            exit load are not modeled in this demo.
           </p>
         </section>
       </div>

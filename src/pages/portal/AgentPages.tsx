@@ -4,7 +4,7 @@ export function AgentOverview() {
   return (
     <div className="portal-page">
       <p className="muted intro">
-        Agent workspace: monthly funnel, KYC backlog, and SIP productivity (illustrative).
+        Agent workspace: monthly funnel, CKYC backlog, and SIP productivity (illustrative).
       </p>
       <div className="stat-grid">
         <div className="stat-card">
@@ -40,7 +40,7 @@ export function AgentOverview() {
 export function AgentPipeline() {
   return (
     <div className="portal-page">
-      <p className="muted intro">Deal stages from proposal to payment — CRM integration later.</p>
+      <p className="muted intro">Deal stages from proposal to payment - CRM integration later.</p>
       <div className="table-wrap">
         <table className="data-table">
           <thead>
@@ -85,7 +85,7 @@ export function AgentKYC() {
 export function AgentEarnings() {
   return (
     <div className="portal-page">
-      <p className="muted intro">Incentive statements and TDS certificates — static preview.</p>
+      <p className="muted intro">Incentive statements and TDS certificates - static preview.</p>
       <div className="card panel">
         <table className="data-table">
           <thead>

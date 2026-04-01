@@ -27,9 +27,9 @@ export function ExploreFunds() {
   return (
     <div className="page-funds">
       <header className="page-header">
-        <h1>Explore mutual funds</h1>
+        <h1>Explore Indian mutual funds</h1>
         <p className="muted">
-          Filter by category and search by name or AMC. Data is static for this demo.
+          Filter by category and search by scheme name or AMC. Data is static and for demo only.
         </p>
       </header>
 
@@ -42,7 +42,7 @@ export function ExploreFunds() {
             id="fund-search"
             type="search"
             className="input"
-            placeholder="Search by fund, AMC, category…"
+            placeholder="Search by scheme, AMC, category..."
             value={q}
             onChange={(e) => setQ(e.target.value)}
           />
@@ -65,7 +65,7 @@ export function ExploreFunds() {
         <table className="data-table">
           <thead>
             <tr>
-              <th>Fund</th>
+              <th>Scheme</th>
               <th>Category</th>
               <th>Risk</th>
               <th>NAV</th>

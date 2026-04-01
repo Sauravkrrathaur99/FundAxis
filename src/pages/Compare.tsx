@@ -40,7 +40,7 @@ export function Compare() {
   return (
     <div className="page-compare">
       <header className="page-header">
-        <h1>Compare funds</h1>
+        <h1>Compare Indian schemes</h1>
         <p className="muted">Pick up to {MAX} schemes. Selection is stored in the URL for sharing.</p>
       </header>
 

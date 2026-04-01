@@ -82,12 +82,12 @@ export function Signup() {
             />
           </label>
           <label className="field">
-            <span>Organisation / ARN (optional)</span>
+            <span>Organisation / ARN code (optional)</span>
             <input
               className="input"
               value={orgName}
               onChange={(e) => setOrgName(e.target.value)}
-              placeholder="e.g. ABC Distributors Pvt Ltd"
+              placeholder="e.g. ARN-123456 or ABC Distributors Pvt Ltd"
             />
           </label>
           <fieldset className="field role-field">

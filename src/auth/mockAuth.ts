@@ -18,7 +18,7 @@ const HARDCODED: StoredAccount[] = [
       email: 'company@demo.com',
       name: 'Priya Sharma',
       role: 'company',
-      orgName: 'Vertex AMC Ltd.',
+      orgName: 'Sampatti AMC Pvt. Ltd.',
     },
   },
   {
@@ -29,7 +29,7 @@ const HARDCODED: StoredAccount[] = [
       email: 'distributor@demo.com',
       name: 'Rajesh Khanna',
       role: 'distributor',
-      orgName: 'WealthBridge Distributors Pvt. Ltd.',
+      orgName: 'Sampatti Distribution Services LLP',
     },
   },
   {
@@ -40,7 +40,7 @@ const HARDCODED: StoredAccount[] = [
       email: 'agent@demo.com',
       name: 'Amit Kulkarni',
       role: 'agent',
-      orgName: 'WealthBridge — Pune Zone',
+      orgName: 'Sampatti Partner Network - Pune',
     },
   },
 ]
@@ -117,5 +117,5 @@ export function logout() {
 }
 
 export function demoCredentialsHint(): string {
-  return 'Demo: company@demo.com / distributor@demo.com / agent@demo.com — password: demo123'
+  return 'Demo logins: company@demo.com / distributor@demo.com / agent@demo.com | password: demo123'
 }

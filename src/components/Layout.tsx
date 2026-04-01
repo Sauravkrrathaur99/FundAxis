@@ -16,7 +16,7 @@ export function PublicLayout() {
       <header className="topbar">
         <Link to="/" className="brand">
           <span className="brand-mark" aria-hidden />
-          <span className="brand-text">FundAxis</span>
+          <span className="brand-text">FundAxis India</span>
         </Link>
         <nav className="nav-main" aria-label="Primary">
           <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>
@@ -66,11 +66,11 @@ export function PublicLayout() {
           <div>
             <strong className="footer-brand">FundAxis</strong>
             <p className="footer-tag">
-              Sample marketplace UI for mutual fund discovery — demo data only, not investment advice.
+              India-focused mutual fund marketplace demo. Data is illustrative and not investment advice.
             </p>
           </div>
           <div>
-            <span className="footer-heading">Product (sample)</span>
+            <span className="footer-heading">Investor experience (sample)</span>
             <ul>
               <li>
                 <Link to="/funds">Fund explorer</Link>
@@ -84,7 +84,7 @@ export function PublicLayout() {
             </ul>
           </div>
           <div>
-            <span className="footer-heading">Portals (sample)</span>
+            <span className="footer-heading">Partner workspaces (sample)</span>
             <ul>
               <li>AMC / Company</li>
               <li>Distributor</li>
@@ -93,8 +93,8 @@ export function PublicLayout() {
           </div>
         </div>
         <p className="footer-disclaimer">
-          SEBI registration, KYC, and risk disclosures will appear here in production. This build uses
-          hardcoded authentication for stakeholder review only.
+          SEBI, AMFI, ARN, CKYC, FATCA and risk disclosures will appear here in production. This build
+          uses hardcoded authentication only for stakeholder preview.
         </p>
       </footer>
     </div>
@@ -134,7 +134,7 @@ export function PortalLayout() {
       <aside className="portal-sidebar">
         <Link to="/" className="brand brand-compact">
           <span className="brand-mark sm" aria-hidden />
-          <span className="brand-text">FundAxis</span>
+          <span className="brand-text">FundAxis India</span>
         </Link>
         <div className="portal-user">
           <span className="portal-role">{roleLabel(user.role)}</span>

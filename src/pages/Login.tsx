@@ -42,7 +42,7 @@ export function Login() {
     <div className="auth-page">
       <div className="auth-card card">
         <h1>Sign in</h1>
-        <p className="muted">Use demo accounts or sign up to create a stored demo user.</p>
+        <p className="muted">Use demo logins or sign up to create a local sample user.</p>
         <form onSubmit={handleSubmit} className="auth-form">
           <label className="field">
             <span>Email</span>

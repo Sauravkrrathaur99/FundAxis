@@ -98,8 +98,8 @@ export function FundDetail() {
           <h2>Investment objective</h2>
           <p>{f.objective}</p>
           <p className="muted small disclaimer-box">
-            Past performance does not guarantee future results. This page is a UI sample only; live
-            factsheets, SID, and riskometers will be integrated for production.
+            Past performance may or may not be sustained in future. This is a demo UI only. Live
+            factsheet, SID, KIM, riskometer, and scheme documents will be integrated in production.
           </p>
         </section>
       </div>
